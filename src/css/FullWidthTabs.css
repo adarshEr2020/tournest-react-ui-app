@@ -1,0 +1,9 @@
+.tabSection{
+    position: relative;
+    left:10%;
+    bottom: 12%;
+    width: 80%;
+    height: 400px;
+    border:1px solid green;
+    background-color: #ffffff;
+}

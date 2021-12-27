@@ -1,0 +1,18 @@
+.headerContainer {
+  background: transparent;
+  width: 80%;
+  align-items: center;
+  margin-left: 8%;
+  border-bottom: 2px solid #ffffff;
+  position: fixed;
+}
+.headerContainer:in-range{
+  /* background-color:gray; */
+}
+.MuiButton-root {
+  background-color: #00d8d5;
+}
+
+.Btn-hover:hover{
+  color:#00d8ff;
+}

@@ -1,0 +1,7 @@
+.dateAndTimeContaner{
+    height: 500px;
+    background-image: url('https://demos.onepagelove.com/html/tournest/assets/images/home/offer-timer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
