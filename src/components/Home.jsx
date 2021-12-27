@@ -11,32 +11,34 @@ export default function Home() {
   return (
     <>
       <div className="container">
-        <div style={{ background: "rgba(0,122,207,.4)" }}>
-          <Header />
-          <div className="about">
-            <div className="about-txt">
-              <Typography
-                variant="h1"
-                className="abuttext"
-                noWrap
-                component="div"
-                sx={{
-                  color: "#ffffff",
-                  fontWeight: "bold",
-                }}
-              >
-                Explore the Beauty
-                <br /> of the Beautiful
-                <br /> World
-              </Typography>
-              <div className="explore-btn">
-                <Button
-                  size="large"
-                  variant="contained"
-                  sx={{ backgroundColor: "#00d8ff" }}
+        <div className="img-container">
+          <div style={{ background: "rgba(0,122,207,.4)" }}>
+            <Header />
+            <div className="about">
+              <div className="about-txt">
+                <Typography
+                  variant="h1"
+                  className="abuttext"
+                  noWrap
+                  component="div"
+                  sx={{
+                    color: "#ffffff",
+                    fontWeight: "bold",
+                  }}
                 >
-                  Explore Now
-                </Button>
+                  Explore the Beauty
+                  <br /> of the Beautiful
+                  <br /> World
+                </Typography>
+                <div className="explore-btn">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    sx={{ backgroundColor: "#00d8ff" }}
+                  >
+                    Explore Now
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

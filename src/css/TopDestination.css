@@ -1,0 +1,88 @@
+.Imgcontainer{
+    /* border: 3px solid red; */
+    height: 1100px;
+}
+
+.destiTextInfo{
+    color:white;
+    font-family: serif;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+.destiTextInfo1{
+    color:white;
+    font-family: serif;
+    position: relative;
+    left: 50px;
+    top: 550px;
+}
+.destination-cotain1{
+    /* border: 1px solid gray; */
+    background-image: url("https://demos.onepagelove.com/html/tournest/assets/images/gallary/g1.jpg");
+    width: 580px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+}
+.destination-cotain2{
+    /* border: 1px solid red; */
+    background-image: url("https://demos.onepagelove.com/html/tournest/assets/images/gallary/g2.jpg");
+    height: 320px;
+    width: 580px;
+    background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+    left: 600px;
+    bottom: 320px;
+}
+.destination-cotain3{
+    /* border: 5px solid blue; */
+    background-image: url("https://demos.onepagelove.com/html/tournest/assets/images/gallary/g3.jpg");
+    height: 700px;
+    width:380px;
+    background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+    bottom: 500px;
+    /* top: 30px; */
+    bottom: 290px;
+    
+}
+.destination-cotain4{
+    /* border: 1px solid plum; */
+    background-image: url("https://demos.onepagelove.com/html/tournest/assets/images/gallary/g4.jpg");
+    height: 320px;
+    width: 380px;
+    background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+    left:400px;
+    bottom: 990px;
+}
+.destination-cotain5{
+    /* border: 1px solid red; */
+    background-image: url("https://demos.onepagelove.com/html/tournest/assets/images/gallary/g5.jpg");
+    height: 320px;
+    width: 380px;
+    background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+    left: 800px;
+    bottom: 1312px;
+}
+.destination-cotain6{
+    /* border: 1px solid red; */
+    background-image: url("https://demos.onepagelove.com/html/tournest/assets/images/gallary/g6.jpg");
+    height: 320px;
+    width: 780px;
+    background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+    left: 400px;
+    bottom: 1280px;
+}
+
+

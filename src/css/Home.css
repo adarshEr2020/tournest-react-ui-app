@@ -1,10 +1,17 @@
 .container {
-  background-image: url("../../public/assets/banner.jpg");
-  height: 100vh;
+  height:100%;
   width: 100vw;
-  background-size: 100%;
-  background-repeat: no-repeat;
+ 
+  
   background: cover;
+}
+.img-container{
+  background-image: url("../../public/assets/banner.jpg");
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  height: 120%;
+  width: 100%;
+  /* border:3px solid blue; */
 }
 .about {
   position: relative;
@@ -16,7 +23,7 @@
 }
 .about-txt {
   /* border: 1px solid red; */
-  width: 75%;
+  width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -24,7 +31,7 @@
 .abuttext {
   /* border: 1px solid blue; */
   max-width: 100%;
-  height: 90%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -39,7 +46,7 @@
 .tabSection-home {
   background-color: #ffffff;
   height: 400px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .tab-section {

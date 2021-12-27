@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
+import "../css/TopDestination.css";
 export default function TopDestination() {
   return (
     <>
@@ -12,69 +13,44 @@ export default function TopDestination() {
           Duis aute irure dolor in velit esse cillum dolore eu fugiat nulla.
         </Typography>
       </Container>
-      <Container
-        style={{
-          width: "100%",
-          display: "grid",
-          justifyContent: "space-between",
-          gridTemplateColumns: "200px 500px",
-          gridGap: "1%",
-          marginBottom: "5%",
-        }}
-      >
-        {imgLists.map((imgList, index) => (
-          <Grid
-            container
-            direction="row"
-            sx={{
-              flexGrow: 3,
-            }}
-            key={index}
-          >
-            <img src={imgList.img} alt="images.jpg"/>
-          </Grid>
-        ))}
+      <Container className="Imgcontainer">
+        <div className="destination-cotain1">
+          <div className="destiTextInfo">
+            Chaina <br />
+            20 Tours <br /> 15 Palaces
+          </div>
+        </div>
+        <div className="destination-cotain2">
+          <div className="destiTextInfo">
+          Venuzuala <br />
+          12 Tours <br /> 9 Palaces
+          </div>
+        </div>
+        <div className="destination-cotain3">
+          <div className="destiTextInfo1">
+          Brazil <br />
+            25 Tours <br /> 10 Palaces
+          </div>
+        </div>
+        <div className="destination-cotain4">
+          <div className="destiTextInfo">
+          Australia <br />
+            28 Tours <br /> 9 Palaces
+          </div>
+        </div>
+        <div className="destination-cotain5">
+          <div className="destiTextInfo">
+          Netharland <br />
+            14 Tours <br /> 12 Palaces
+          </div>
+        </div>
+        <div className="destination-cotain6">
+          <div className="destiTextInfo">
+          Turkey <br />
+            14 Tours <br /> 6 Palaces
+          </div>
+        </div>
       </Container>
     </>
   );
 }
-
-const imgLists = [
-  {
-    img: "https://demos.onepagelove.com/html/tournest/assets/images/gallary/g1.jpg",
-    title: "Chaina",
-    tours: "20 Tours",
-    place: "15 Palaces",
-  },
-  {
-    img: "https://demos.onepagelove.com/html/tournest/assets/images/gallary/g2.jpg",
-    title: "Venuzuala",
-    tours: "12 Tours",
-    place: "9 Palaces",
-  },
-  {
-    img: "https://demos.onepagelove.com/html/tournest/assets/images/gallary/g3.jpg",
-    title: "Brazil",
-    tours: "25 Tours",
-    place: "10 Palaces",
-  },
-  {
-    img: "https://demos.onepagelove.com/html/tournest/assets/images/gallary/g4.jpg",
-    title: "Australia",
-    tours: "18 Tours",
-    place: "9 Palaces",
-  },
-  {
-    img: "https://demos.onepagelove.com/html/tournest/assets/images/gallary/g5.jpg",
-    title: "Netharland",
-    tours: "14 Tours",
-    place: "12 Palaces",
-  },
-
-  {
-    img: "https://demos.onepagelove.com/html/tournest/assets/images/gallary/g6.jpg",
-    title: "Turkey",
-    tours: "14 Tours",
-    place: "6 Palaces",
-  },
-];

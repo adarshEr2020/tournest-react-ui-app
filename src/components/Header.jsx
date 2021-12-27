@@ -18,54 +18,60 @@ export default function Header() {
   ];
   return (
     <div className="headerContainer">
-      <Container maxWidth="xl">
-        <Toolbar
-          disableGutters
-          style={{ display: "flex", justifyContent: "space-between" }}
-        >
-          <div className="titleHead" style={{ display: "flex" }}>
-            <Typography variant="h6" color="white">
-              <b>Tour</b>
-            </Typography>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{
-                mr: 2,
-                display: { xs: "none", md: "flex" },
-                color: "#00d8ff",
-              }}
-            >
-              Nest
-            </Typography>
-          </div>
-
-          {pages.map((page, index) => (
-            <Tooltip placement="bottom" sx={{ backgroundColor: "#00d8ff" }}>
-              <Button
-                className="Btn-hover"
-                key={page}
+      <div className="headerContant">
+        <Container maxWidth="xl">
+          <Toolbar
+            disableGutters
+            style={{ display: "flex", justifyContent: "space-between" }}
+          >
+            <div className="titleHead" style={{ display: "flex" }}>
+              <Typography variant="h6" color="white">
+                <b>Tour</b>
+              </Typography>
+              <Typography
+                variant="h6"
+                noWrap
+                component="div"
                 sx={{
-                  my: 2,
-                  color: "white",
-                  display: "block",
-                  fontsize: "20px",
+                  mr: 2,
+                  display: { xs: "none", md: "flex" },
+                  color: "#00d8ff",
                 }}
               >
-                {page}
-              </Button>
-            </Tooltip>
-          ))}
-          <Button
-            size="large"
-            variant="contained"
-            sx={{ backgroundColor: "#00d8ff" }}
-          >
-            Book Now
-          </Button>
-        </Toolbar>
-      </Container>
+                Nest
+              </Typography>
+            </div>
+
+            {pages.map((page, index) => (
+              <Tooltip
+                title=" "
+                placement="bottom"
+                sx={{ backgroundColor: "#00d8ff" }}
+              >
+                <Button
+                  className="Btn-hover"
+                  key={index}
+                  sx={{
+                    my: 2,
+                    color: "white",
+                    display: "block",
+                    fontsize: "20px",
+                  }}
+                >
+                  {page}
+                </Button>
+              </Tooltip>
+            ))}
+            <Button
+              size="large"
+              variant="contained"
+              sx={{ backgroundColor: "#00d8ff" }}
+            >
+              Book Now
+            </Button>
+          </Toolbar>
+        </Container>
+      </div>
     </div>
   );
 }
